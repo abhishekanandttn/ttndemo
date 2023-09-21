@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ttndemo/clientlibs"/>
+    <filter root="/apps/ttndemo/components"/>
+    <filter root="/apps/ttndemo/i18n"/>
+    <filter root="/apps/sling" />
+    <filter root="/apps/msm/ttndemo_blueprint" mode="merge"/>
+</workspaceFilter>

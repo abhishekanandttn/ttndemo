@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ttndemo" mode="merge"/>
+    <filter root="/content/ttndemo" mode="merge"/>
+    <filter root="/content/dam/ttndemo" mode="merge">
+        <exclude pattern="/content/dam/ttndemo(/.*)?"/>
+        <include pattern="/content/dam/ttndemo/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ttndemo/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ttndemo" mode="merge"/>
+</workspaceFilter>
